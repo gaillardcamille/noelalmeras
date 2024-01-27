@@ -1,5 +1,5 @@
 :root {
-	--vert-fonce: rgb(22, 80, 28);
+	--vert-fonce: rgb(69, 124, 74);
 	--bleu-clair: rgb(105 146 180);
 	--color-text-black: rgb(0 0 0);
 	--color-text-white: rgb(255 255 255);
@@ -31,7 +31,7 @@ a {
 /*************************/
 
 header {
-    padding: 1rem 5vw 1rem 2vw;
+    padding: 0rem 2vw;
     display: flex;
     justify-content: space-between;
     border-bottom: 3px solid var(--vert-fonce);
@@ -44,17 +44,15 @@ nav ul {
 
 nav li {
     list-style: none;
-    padding: 0 1vw;
-}
-
-nav li:hover {
-    background-color: var(--vert-fonce);
 }
 
 nav a {
+    padding: 1em 1vw;
     color: var(--vert-fonce);
 }
 
 nav a:hover {
+    padding:1rem 1vw;
+    background-color: var(--vert-fonce);
     color: var(--color-text-white);
 }
