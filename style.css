@@ -1,0 +1,60 @@
+:root {
+	--vert-fonce: rgb(22, 80, 28);
+	--bleu-clair: rgb(105 146 180);
+	--color-text-black: rgb(0 0 0);
+	--color-text-white: rgb(255 255 255);
+}
+
+/*@font-face {
+	font-family: 'insanibu';
+	src: url('../fonts/Insanibu.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'happyChristmas';
+	src: url('../fonts/PWHappyChristmas.ttf') format('truetype');
+}*/
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*************************/
+
+header {
+    padding: 1rem 5vw 1rem 2vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--vert-fonce);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    list-style: none;
+    padding: 0 1vw;
+}
+
+nav li:hover {
+    background-color: var(--vert-fonce);
+}
+
+nav a {
+    color: var(--vert-fonce);
+}
+
+nav a:hover {
+    color: var(--color-text-white);
+}
