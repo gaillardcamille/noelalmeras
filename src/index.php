@@ -17,8 +17,9 @@
 		<h1><a>Noël Alméras</a></h1>
 		<nav>
 			<ul>
-			<li><a href="index.html">Accueil</a></li>
+			<li><a href="index.php">Accueil</a></li>
 			<li><a href="#">Sève de Bouleau</a></li>
+			<li><a href="#">Autres produits</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -28,15 +29,18 @@
 		</section>
 
 		<section id="qui-est-ce">
+
 			<div>
 				<h2>Qui est-ce ?</h2>
-
 				<p>
 					Noël Alméras, paysan et artisan lozérien, combine habilement sa vie rurale avec sa passion pour la création. Spécialisé dans la récolte de myrtilles, framboises, champignons, et sève de bouleau, il crée dans son atelier des objets en bois en forme de champignons.
 					
-					Son stand sur les marchés locaux vous offrira un accès à des produits venant du coeur de la fôret, tout en vous proposant des objets décoratifs inspirés par la nature qui l'entoure, tel que des portes-clés champignons ou portes cure-dents. Si vous êtes intéressés par un des produits du site, n'hésitez pas à le contacter.</p>
+					Son stand sur les marchés locaux vous offrira un accès à des produits venant du coeur de la fôret, tout en vous proposant des objets décoratifs inspirés par la nature qui l'entoure, tel que des portes-clés champignons ou portes cure-dents. Si vous êtes intéressés par un des produits du site, n'hésitez pas à le contacter.
+				</p>
 			</div>
+
 			<img src="img/noel.jpg" alt="Noël Alméras" />
+
 		</section>
 
 		<section id="galerie">
@@ -44,6 +48,7 @@
 		</section>
 
 		<section id="produits">
+
 			<article>
 				<img src="img/noel.jpg" alt="Les Myrtilles">
 				<h3>Myrtilles</h3>
@@ -84,13 +89,17 @@
 					<li>Avril</li>
 				</ul>
 			</article>
+
 		</section>
 
 	</main>
 
 	<footer>
+
 		<img src="img/noel.jpg">
+
 		<section>
+
 			<div>
 				<ul>
 					<li>Accueil</li>
@@ -103,8 +112,11 @@
 					<li>logo</li>
 				</ul>
 			</div>
+
 			<p>© 2024 - Deschamps Hélie / Gaillard Camille</p>
+
 		</section>
+
 	</footer>
 
 </body>
