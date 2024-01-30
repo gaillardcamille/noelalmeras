@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Insaniburger Regular';
-    src: url('/fonts/Insanibu.ttf') format('truetype');
+    src: url('../fonts/Insanibu.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Insaniburger White Cheese';
-    src: url('/fonts/Insanibc.ttf') format('truetype');
+    src: url('../fonts/Insanibc.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Louis George Cafe';
-    src: url('/fonts/LGC.ttf') format('truetype');
+    src: url('../fonts/LGC.ttf') format('truetype');
 }
 
 :root {
