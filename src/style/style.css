@@ -123,14 +123,20 @@ footer div {
 
 #le_produit {
 	margin: 10px 10vw 10px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+	display: inline;
 }
 
-#le_produit img {
-	width: 100%;
+#img_produit {
+	display: inline-block;
+	width: 80vw;
 	max-width: 22em;
 }
+#img_produit img {
+	width: 100%;
+}
 
+#infos_produit {
+	display: inline-block;
+	width: calc(80vw - 23em);
+	padding-left: 5em;
+}

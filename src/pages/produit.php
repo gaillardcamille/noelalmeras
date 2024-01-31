@@ -29,13 +29,13 @@
 	url("../img/foret-bouleau.jpeg")'>
 	</section>
 
-	<section>
-
 	<section id="le_produit">
 
-		<img src="../img/noel.jpg" alt="Noël Alméras" />
+        <div id="img_produit">
+		    <img src="../img/noel.jpg" alt="Noël Alméras" />
+        </div>
 
-		<div>
+		<div id="infos_produit">
 			<h2>Porte-clé champignon</h2>
 			<h3>L'unité</h3>
 			<p>3€</p>
@@ -43,8 +43,7 @@
 			<button>Contacter</button>
 		</div>
 
-		</section>
-	</section>
+    </section>
 
 </body>
 
