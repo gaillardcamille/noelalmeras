@@ -1,28 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link href="style/style.css" rel="stylesheet" />
-	<link href="style/design_system.css" rel="stylesheet" />
-
-	<title>Noel Alméras</title>
-</head>
-
+<?php
+include_once 'component/head.php';
+?>
 <body>
-
-	<header>
-		<h1><a>Noël Alméras</a></h1>
-		<nav>
-			<ul>
-			<li><a href="index.php">Accueil</a></li>
-			<li><a href="#">Sève de Bouleau</a></li>
-			<li><a href="#">Autres produits</a></li>
-			</ul>
-		</nav>
-	</header>
+<?php
+include_once 'component/header.php';
+?>
 
 	<main>
 		<section>
@@ -93,31 +77,9 @@
 		</section>
 
 	</main>
-
-	<footer>
-
-		<img src="img/noel.jpg">
-
-		<section>
-
-			<div>
-				<ul>
-					<li>Accueil</li>
-					<li>Mentions Légales</li>
-					<li>Plan du site</li>
-				</ul>
-				<ul>
-					<li>+33 6 70 76 67 64</li>
-					<li>Mail</li>
-					<li>logo</li>
-				</ul>
-			</div>
-
-			<p>© 2024 - Deschamps Hélie / Gaillard Camille</p>
-
-		</section>
-
-	</footer>
+<?php
+include_once 'component/footer.php';
+?>
 
 </body>
 
