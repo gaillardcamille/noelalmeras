@@ -12,11 +12,11 @@
 }
 
 :root {
-    --green-dark: #16661E;
-    --green-light: #95B598;
-    --green-light-deep: #dde8df;
-    --white: #f5fffa;
-    --black: #01130b;
+    --green-dark: rgba(22, 102, 30, 1);
+    --green-light: rgba(149, 181, 152, 1);
+    --green-light-deep: rgba(221, 232, 223, 1);
+    --white: rgba(245, 255, 250, 1);
+    --black: rgba(1, 19, 11, 1);
 }
 * {
     font-family: 'Louis George Cafe', Arial, sans-serif;

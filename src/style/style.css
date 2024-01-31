@@ -110,3 +110,27 @@ footer div {
 	display: flex;
 	flex-direction: row;
 }
+
+/***************************/
+/*         PRODUIT         */
+/***************************/
+
+#image_bg {
+	width: 100%;
+	height: 50vh;
+	object-fit: cover;
+}
+
+#le_produit {
+	margin: 10px 10vw 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#le_produit img {
+	width: 100%;
+	max-width: 22em;
+}
+
