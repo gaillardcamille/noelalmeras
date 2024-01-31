@@ -29,8 +29,6 @@
 	url("../img/foret-bouleau.jpeg")'>
 	</section>
 
-	<section>
-
 	<section id="le_produit">
 
 		<img src="../img/noel.jpg" alt="Noël Alméras" />
@@ -43,7 +41,6 @@
 			<button>Contacter</button>
 		</div>
 
-		</section>
 	</section>
 
 </body>
