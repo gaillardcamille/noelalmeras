@@ -12,6 +12,7 @@
 </head>
 
 <body>
+	
 	<header>
 		<h1><a>Noël Alméras</a></h1>
 		<nav>
@@ -41,7 +42,6 @@
 		</div>
 
 	</section>
-
 
 </body>
 
