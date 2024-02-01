@@ -1,7 +1,7 @@
 <?php
 ?>
 <header>
-	<h1><a>Noël Alméras</a></h1>
+	<h1><a href="index.php">Noël Alméras</a></h1>
 	<nav>
 		<ul>
 			<li><a href="/">Accueil</a></li>

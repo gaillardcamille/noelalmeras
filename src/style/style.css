@@ -188,6 +188,8 @@ footer div {
 	margin: 10px;
 }
 
+
+
 /***************************/
 /*        CAROUSSEL        */
 /***************************/
@@ -216,7 +218,7 @@ footer div {
 #galerie .carousel div {
 	display: flex;
 	animation: marqueeAnimation 79s linear infinite;
- }
+}
 
 /* Animation pour le marquee */
 @keyframes marqueeAnimation {
@@ -226,4 +228,18 @@ footer div {
 	to {
 		transform: translateX(-100%);
 	}
+}
+
+/**************************/
+/*        404ERROR        */
+/**************************/
+
+#error {
+	margin: 5em;
+	text-align: center;
+}
+
+#error p {
+	margin: 1em;
+	text-align: center;
 }
