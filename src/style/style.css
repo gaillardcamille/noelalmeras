@@ -54,14 +54,17 @@ nav a:hover {
 	flex-direction: column;
 	display: flex;
 }
+
 .menu-dropdown a {
 	color: var(--green-dark);
 	text-align: right;
 	display: block;
 }
+
 .menu {
 	position: relative;
 }
+
 .menu:not(:hover)>.menu-dropdown {
 	padding: 4px 0;
 	z-index: 99;
@@ -117,7 +120,7 @@ nav a:hover {
 		width: 80%;
 	}
 
-	#qui-est-ce h2{
+	#qui-est-ce h2 {
 		margin-bottom: 10px;
 	}
 }
@@ -167,10 +170,12 @@ footer {
 	flex-direction: row;
 	align-items: center;
 }
+
 footer ul {
 	display: flex;
 	gap: 2em;
 }
+
 footer li:not(:first-child) {
 	list-style: "|   ";
 }
@@ -188,6 +193,7 @@ footer a {
 footer p {
 	text-align: center;
 }
+
 footer section {
 	height: fit-content;
 }
@@ -197,15 +203,18 @@ footer section {
 		flex-direction: column;
 	}
 }
+
 @media screen and (max-width: 720px) {
 	footer ul {
 		display: flex;
 		gap: 0;
 		flex-direction: column;
 	}
+
 	footer li:not(:first-child) {
 		list-style: none;
 	}
+
 	footer {
 		padding-bottom: 2em;
 	}
@@ -275,21 +284,25 @@ footer section {
 	display: block;
 	margin: 4em 0;
 }
+
 #galerie h2 {
 	color: black;
 	text-align: center;
 }
+
 #galerie .carousel {
 	margin-top: 1.5em;
 	display: flex;
 	overflow: hidden;
 }
+
 #galerie .carousel img {
 	width: 24em;
 	height: 24em;
 	object-fit: cover;
 	margin-right: 3em;
 }
+
 #galerie .carousel div {
 	display: flex;
 	animation: marqueeAnimation 79s linear infinite;
@@ -300,6 +313,7 @@ footer section {
 	from {
 		transform: translateX(0%);
 	}
+
 	to {
 		transform: translateX(-100%);
 	}
