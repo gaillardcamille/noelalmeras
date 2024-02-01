@@ -30,16 +30,6 @@ class DB
         return $this->PDO;
     }
 
-    /**
-     * Ajoute un utilisateur à la base de données.
-     *
-     * @param string $email L'adresse email de l'utilisateur.
-     * @param string $username Le nom d'utilisateur de l'utilisateur.
-     * @param string $password Le mot de passe de l'utilisateur.
-     * @param int $codeIcone Le code de l'icone de l'utilisateur.
-     *
-     * @return bool Retourne true si l'ajout réussit, sinon retourne false.
-     */
     public function getAllProducts(): array
     {
         $req = $this->PDO->prepare("SELECT * FROM `Produit`");
