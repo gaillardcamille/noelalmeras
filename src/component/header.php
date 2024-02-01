@@ -5,7 +5,7 @@
 	<nav>
 		<ul>
 			<li><a href="/">Accueil</a></li>
-			<li><a href="#">Sève de Bouleau</a></li>
+			<li><a href="../pages/sevedebouleau.php">Sève de Bouleau</a></li>
 			<li>
 				<div href="#click" class="menu">
 					<a class="menu-title">animals</a>
