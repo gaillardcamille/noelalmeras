@@ -143,7 +143,7 @@ footer {
 	flex-direction: row;
 }
 
-footer h1{
+footer h1 {
 	margin: 50px 20vw;
 }
 
@@ -151,6 +151,19 @@ footer div {
 	display: flex;
 	flex-direction: row;
 }
+
+@media screen and (max-width: 768px) {
+	footer {
+		margin: 0;
+		flex-direction: column;
+	}
+
+	footer div {
+		margin: 0 20% 0;
+	}
+}
+
+
 
 /***************************/
 /*      AUTRE PRODUIT      */
@@ -183,6 +196,25 @@ footer div {
 #infos_produit p,
 #infos_produit button {
 	margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	#le_produit {
+		margin: 0;
+		flex-direction: column;
+	}
+
+	#le_produit img {
+		order: 1;
+		margin: auto;
+		padding-left: 100px;
+	}
+
+	#infos_produit {
+		order: 2;
+
+		margin: auto;
+	}
 }
 
 /**************************/
