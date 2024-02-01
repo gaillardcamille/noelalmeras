@@ -1,3 +1,7 @@
+<?php
+require_once 'private/database.php';
+$products = DB::getInstance()->getAllProducts();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <?php

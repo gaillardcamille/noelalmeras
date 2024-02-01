@@ -8,13 +8,11 @@
 			<li><a href="#">Sève de Bouleau</a></li>
 			<li>
 				<div href="#click" class="menu">
-					<a class="menu-title">animals</a>
+					<a class="menu-title">Produits</a>
 					<ul class="menu-dropdown">
-						<li>cat</li>
-						<li>dog</li>
-						<li>horse</li>
-						<li>cow</li>
-						<li>pig</li>
+                        <?php foreach ($products as $product) : ?>
+                            <a href="<?= $product["url"] ?>"><?= $product["nom_produit"] ?></a>
+                        <?php endforeach; ?>
 					</ul>
 				</div>
 			</li>

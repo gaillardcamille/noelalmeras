@@ -8,7 +8,7 @@ class DB
     private PDO $PDO;
     private function __construct()
     {
-        $db_login = json_decode(file_get_contents("./password_bdd.json"));
+        $db_login = json_decode(file_get_contents("private/password_bdd.json"));
 
         $this->PDO = new PDO(
             'mysql:host=' . $db_login->host . ';port=3306;dbname=' . $db_login->dbname . ';charset=utf8',
@@ -60,5 +60,3 @@ class DB
         //return $req->execute() && $req->rowCount() > 0;
     }*/
 }
-
-var_dump(DB::getInstance()->getAllProducts());
