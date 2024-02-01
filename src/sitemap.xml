@@ -4,6 +4,24 @@
         <loc>https://noelalmeras.fr/</loc>
         <lastmod>2024-02-01</lastmod>
         <changefreq>never</changefreq>
-        <priority>0.8</priority>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://noelalmeras.fr/seve-de-bouleau</loc>
+        <lastmod>2024-02-01</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://noelalmeras.fr/porte-cle-champignon</loc>
+        <lastmod>2024-02-01</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://noelalmeras.fr/porte-cure-dents-champignon</loc>
+        <lastmod>2024-02-01</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.5</priority>
     </url>
 </urlset>

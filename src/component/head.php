@@ -8,5 +8,9 @@
     <link href="style/design_system.css" rel="stylesheet" />
 
     <title>Noel Alméras</title>
+
+    <meta name='keywords' content='your, tags'>
+    <meta name='description' content='150 words'>
+    <meta name='language' content='ES'>
 </head>
 <?php
