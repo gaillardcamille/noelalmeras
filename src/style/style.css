@@ -46,25 +46,26 @@ nav a:hover {
 }
 
 .menu-dropdown {
-	padding: 15px 0;
+	padding: 0 0 1em 0;
+	background-color: var(--green-light-deep);
 	position: absolute;
-	background: rgba(245, 255, 250, 1);
 	z-index: 100;
+	right: 0;
 	flex-direction: column;
+	display: flex;
 }
-
-.menu-dropdown:after {
-	content: "";
+.menu-dropdown a {
+	color: var(--green-dark);
+	text-align: right;
 	display: block;
-	height: 0;
-	position: absolute;
-	left: 0;
-	z-index: 101;
 }
-
+.menu {
+	position: relative;
+}
 .menu:not(:hover)>.menu-dropdown {
 	padding: 4px 0;
 	z-index: 99;
+	display: none;
 }
 
 .menu-dropdown>* {
