@@ -116,6 +116,10 @@ nav a:hover {
 	align-items: flex-start;
 }
 
+#produits h3 {
+	margin: 10px 0;
+}
+
 #produits article {
 	align-items: center;
 	text-align: center;
@@ -136,6 +140,10 @@ footer {
 	background-color: var(--green-light);
 	display: flex;
 	flex-direction: row;
+}
+
+footer h1{
+	margin: 50px 20vw;
 }
 
 footer div {
@@ -168,7 +176,14 @@ footer div {
 }
 
 #infos_produit {
-	display: inline-block;
-	width: calc(80vw - 23em);
+
+	align-items: center;
 	padding-left: 5em;
+}
+
+#infos_produit h2,
+#infos_produit h3,
+#infos_produit p,
+#infos_produit button {
+	margin: 10px;
 }

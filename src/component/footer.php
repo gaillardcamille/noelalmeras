@@ -2,7 +2,7 @@
 ?>
 <footer>
 
-    <img src="img/noel.jpg" alt="Photo de Noel Almeras">
+<h1><a>Noël Alméras</a></h1>
 
     <section>
 
