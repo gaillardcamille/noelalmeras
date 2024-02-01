@@ -18,8 +18,8 @@ include_once 'component/head.php';
 
 	<section class="page-simple">
 
-        <h2>Erreur 404</h2>
-        <p>Etes-vous perdu au milieu de la forêt lozérienne ?</p>
+		<h2>Erreur 404</h2>
+		<p>Etes-vous perdu au milieu de la forêt lozérienne ?</p>
 
 	</section>
 
