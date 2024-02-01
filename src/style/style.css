@@ -19,8 +19,6 @@ li {
 	list-style: none;
 }
 
-
-
 /**************************/
 /*         HEADER         */
 /**************************/
@@ -85,7 +83,6 @@ nav a:hover {
 	margin: 0;
 }
 
-
 /**************************/
 /*       QUI-EST-CE       */
 /**************************/
@@ -107,14 +104,12 @@ nav a:hover {
 	max-width: 100%;
 }
 
-
-
 /**************************/
 /*        PRODUITS        */
 /**************************/
 
 #produits {
-	margin: 10px 10vw 10px;
+	margin: 5em 10vw 5em;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -129,7 +124,7 @@ nav a:hover {
 #produits img {
 	width: 100px;
 	height: auto;
-	border-radius: 40%;
+	border-radius: 50%;
 	object-fit: cover;
 }
 
