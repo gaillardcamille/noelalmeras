@@ -34,7 +34,7 @@ include_once 'component/header.php';
 		<section id="produits">
 
 			<article>
-				<img src="img/noel.jpg" alt="Les Myrtilles">
+				<img src="img/myrtilles.png" alt="Les Myrtilles">
 				<h3>Myrtilles</h3>
 				<ul>
 					<li>Juillet</li>
@@ -44,7 +44,7 @@ include_once 'component/header.php';
 			</article>
 
 			<article>
-				<img src="img/noel.jpg" alt="Les Framboises">
+				<img src="img/framboises.png" alt="Les Framboises">
 				<h3>Framboises</h3>
 				<ul>
 					<li>Juin</li>
@@ -55,7 +55,7 @@ include_once 'component/header.php';
 			</article>
 
 			<article>
-				<img src="img/noel.jpg" alt="Les Champignons">
+				<img src="img/champignons.png" alt="Les Champignons">
 				<h3>Champignons</h3>
 				<ul>
 					<li>Septembre</li>
@@ -65,8 +65,8 @@ include_once 'component/header.php';
 			</article>
 
 			<article>
-				<img src="img/noel.jpg" alt="La Sève de Bouleau">
-				<h3>Myrtilles</h3>
+				<img src="img/eau-de-bouleau.png" alt="La Sève de Bouleau">
+				<h3>Sève de bouleau</h3>
 				<ul>
 					<li>Février</li>
 					<li>Mars</li>
