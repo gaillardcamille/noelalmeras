@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /private/
+Disallow: /legals
 Sitemap: https://noelalmeras.fr/sitemap.xml
