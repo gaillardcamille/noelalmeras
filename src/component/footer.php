@@ -8,12 +8,10 @@
 			<ul>
 				<li>Accueil</li>
 				<li>Mentions Légales</li>
-				<li>Plan du site</li>
 			</ul>
 			<ul>
 				<li>+33 6 70 76 67 64</li>
 				<li>Mail</li>
-				<li>logo</li>
 			</ul>
 		</div>
 

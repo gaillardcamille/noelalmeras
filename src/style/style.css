@@ -89,7 +89,7 @@ nav a:hover {
 /**************************/
 
 #qui-est-ce {
-	margin: 10px 10vw 10px;
+	margin: 10px 20vw 10px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -101,12 +101,12 @@ nav a:hover {
 }
 
 #qui-est-ce img {
-	height: 400px;
+	height: 300px;
 	width: auto;
 	object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1004px) {
 	#qui-est-ce {
 		margin: 0;
 		flex-direction: column-reverse;
@@ -152,7 +152,7 @@ nav a:hover {
 
 @media screen and (max-width: 768px) {
 	#produits {
-		margin: 0 0 0 40vw;
+		margin: 0 calc(100vw/2 - 40px) 0;
 		flex-direction: column;
 	}
 }
@@ -186,8 +186,6 @@ footer div {
 		margin: 0 20% 0;
 	}
 }
-
-
 
 /***************************/
 /*         PRODUIT         */
@@ -223,7 +221,7 @@ footer div {
 	margin: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 	#le_produit {
 		margin: 0;
 		flex-direction: column;
@@ -231,13 +229,13 @@ footer div {
 
 	#le_produit img {
 		order: 1;
-		margin: auto;
+		margin: 0 calc(100vw/2 - 200px) 0;
 		padding-left: 100px;
 	}
 
 	#infos_produit {
 		order: 2;
-
+		padding-left: 0;
 		margin: auto;
 	}
 }
@@ -282,16 +280,16 @@ footer div {
 	}
 }
 
-/**************************/
-/*        404ERROR        */
-/**************************/
+/***************************/
+/*       PAGE SIMPLE       */
+/***************************/
 
-#error {
+.page-simple {
 	margin: 5em;
 	text-align: center;
 }
 
-#error p {
+.page-simple p {
 	margin: 1em;
 	text-align: center;
 }
