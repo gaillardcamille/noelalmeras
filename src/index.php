@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-	
+
 <?php
 include_once 'component/head.php';
 ?>
@@ -12,7 +12,9 @@ include_once 'component/head.php';
 	?>
 
 	<main>
-		<section>
+		<section id=image_bg style='background-image: linear-gradient(0deg,
+	rgba(245, 255, 250, 1) 0%, rgba(255, 255, 255, 0) 100%),
+	url("img/Lozere.jpg"); background-size: cover;'>
 		</section>
 
 		<section id="qui-est-ce">

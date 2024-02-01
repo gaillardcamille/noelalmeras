@@ -13,12 +13,12 @@ include_once 'component/head.php';
 
 	<section id=image_bg style='background-image: linear-gradient(0deg,
 	rgba(245, 255, 250, 1) 0%, rgba(255, 255, 255, 0) 100%),
-	url("img/foret-bouleau.jpeg")'>
+	url("img/foret-bouleau.jpeg"); background-size: cover;'>
 	</section>
 
 	<section id="le_produit">
 
-		<img src="img/bouteille1Lseve.png" alt="Noël Alméras" />
+		<img src="img/bouteille1Lseve.png" alt="Bouteille de sève de bouleau" />
 
 		<div id="infos_produit">
 			<h2>Sève de bouleau</h2>

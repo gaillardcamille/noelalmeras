@@ -100,8 +100,25 @@ nav a:hover {
 }
 
 #qui-est-ce img {
-	height: 100%;
-	max-width: 100%;
+	height: 400px;
+	width: auto;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+	#qui-est-ce {
+		margin: 0;
+		flex-direction: column-reverse;
+	}
+
+	#qui-est-ce div {
+		margin-top: 30px;
+		width: 80%;
+	}
+
+	#qui-est-ce h2{
+		margin-bottom: 10px;
+	}
 }
 
 /**************************/
@@ -130,6 +147,13 @@ nav a:hover {
 	height: auto;
 	border-radius: 50%;
 	object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+	#produits {
+		margin: 0 0 0 40vw;
+		flex-direction: column;
+	}
 }
 
 /**************************/
@@ -171,7 +195,7 @@ footer div {
 #image_bg {
 	width: 100%;
 	height: 50vh;
-	object-fit: cover;
+	margin-bottom: 50px;
 }
 
 #le_produit {
@@ -198,7 +222,24 @@ footer div {
 	margin: 10px;
 }
 
+@media screen and (max-width: 768px) {
+	#le_produit {
+		margin: 0;
+		flex-direction: column;
+	}
 
+	#le_produit img {
+		order: 1;
+		margin: auto;
+		padding-left: 100px;
+	}
+
+	#infos_produit {
+		order: 2;
+
+		margin: auto;
+	}
+}
 
 /***************************/
 /*        CAROUSSEL        */
@@ -237,25 +278,6 @@ footer div {
 	}
 	to {
 		transform: translateX(-100%);
-	}
-}
-
-@media screen and (max-width: 768px) {
-	#le_produit {
-		margin: 0;
-		flex-direction: column;
-	}
-
-	#le_produit img {
-		order: 1;
-		margin: auto;
-		padding-left: 100px;
-	}
-
-	#infos_produit {
-		order: 2;
-
-		margin: auto;
 	}
 }
 
