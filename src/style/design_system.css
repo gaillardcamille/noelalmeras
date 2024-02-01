@@ -1,78 +1,94 @@
 @font-face {
-    font-family: 'Insaniburger Regular';
-    src: url('../fonts/Insanibu.ttf') format('truetype');
+	font-family: 'Insaniburger Regular';
+	src: url('../fonts/Insanibu.ttf') format('truetype');
 }
+
 @font-face {
-    font-family: 'Insaniburger White Cheese';
-    src: url('../fonts/Insanibc.ttf') format('truetype');
+	font-family: 'Insaniburger White Cheese';
+	src: url('../fonts/Insanibc.ttf') format('truetype');
 }
+
 @font-face {
-    font-family: 'Louis George Cafe';
-    src: url('../fonts/LGC.ttf') format('truetype');
+	font-family: 'Louis George Cafe';
+	src: url('../fonts/LGC.ttf') format('truetype');
 }
 
 :root {
-    --green-dark: rgba(22, 102, 30, 1);
-    --green-light: rgba(149, 181, 152, 1);
-    --green-light-deep: rgba(221, 232, 223, 1);
-    --white: rgba(245, 255, 250, 1);
-    --black: rgba(1, 19, 11, 1);
+	--green-dark: rgba(22, 102, 30, 1);
+	--green-light: rgba(149, 181, 152, 1);
+	--green-light-deep: rgba(221, 232, 223, 1);
+	--white: rgba(245, 255, 250, 1);
+	--black: rgba(1, 19, 11, 1);
 }
+
 * {
-    font-family: 'Louis George Cafe', Arial, sans-serif;
+	font-family: 'Louis George Cafe', Arial, sans-serif;
 }
+
 *::selection {
-    background-color: var(--green-dark);
-    color: var(--white);
+	background-color: var(--green-dark);
+	color: var(--white);
 }
 
 body {
-    background-color: var(--white);
+	background-color: var(--white);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Insaniburger Regular', Arial, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Insaniburger Regular', Arial, sans-serif;
 }
+
 h2 {
-    text-transform: uppercase;
-    color: var(--green-light);
-    text-align: center;
+	text-transform: uppercase;
+	color: var(--green-light);
+	text-align: center;
 }
+
 h3 {
-    text-transform: uppercase;
-    color: var(--green-dark);
-    text-align: center;
+	text-transform: uppercase;
+	color: var(--green-dark);
+	text-align: center;
 }
 
 a {
-    text-decoration: none;
-    color: var(--green-dark);
+	text-decoration: none;
+	color: var(--green-dark);
 }
+
 button {
-    font-family: 'Insaniburger Regular', Arial, sans-serif;
-    font-size: 1.2rem;
-    color: var(--black);
-    min-width: 14.5em;
-    background-color: transparent;
-    border: .13em solid var(--green-dark);
-    border-radius: 4em;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+	font-family: 'Insaniburger Regular', Arial, sans-serif;
+	font-size: 1.2rem;
+	color: var(--black);
+	min-width: 14.5em;
+	background-color: transparent;
+	border: .13em solid var(--green-dark);
+	border-radius: 4em;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
+
 button:hover {
-    background-color: var(--green-light);
+	background-color: var(--green-light);
 }
+
 p {
-    text-align: justify;
-    color: var(--black);
+	text-align: justify;
+	color: var(--black);
 }
+
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
+
 li {
-    padding: 0.5rem 0;
-    text-align: center;
+	padding: 0.5rem 0;
+	text-align: center;
 }

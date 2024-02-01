@@ -175,17 +175,14 @@ footer div {
 }
 
 #le_produit {
-	margin: 10px 10vw 10px;
-	display: inline;
+	margin: 50px 30vw 50px;
+	display: flex;
 }
 
-#img_produit {
-	display: inline-block;
-	width: 80vw;
-	max-width: 22em;
-}
-#img_produit img {
-	width: 100%;
+#le_produit img {
+	height: 250px;
+	width: 200px;
+	object-fit: cover;
 }
 
 #infos_produit {
