@@ -10,9 +10,8 @@
 				<div href="#click" class="menu">
 					<a class="menu-title">Produits</a>
 					<ul class="menu-dropdown">
-                        <?php foreach ($products as $product) : ?>
-                            <a href="<?= $product["url"] ?>"><?= $product["nom_produit"] ?></a>
-                        <?php endforeach; ?>
+                        <a href="../porte-cle-champignon.php">Porte clé champignon</a>
+						<a href="../porte-cure-dents-champignon.php">Porte cure dents champignon</a>
 					</ul>
 				</div>
 			</li>

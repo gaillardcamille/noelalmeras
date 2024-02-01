@@ -1,36 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link href="../style/style.css" rel="stylesheet" />
-	<link href="../style/design_system.css" rel="stylesheet" />
-
-	<title>Noel Alméras</title>
-</head>
-
+<?php
+include_once 'component/head.php';
+?>
 <body>
-	<header>
-		<h1><a>Noël Alméras</a></h1>
-		<nav>
-			<ul>
-				<li><a href="../index.php">Accueil</a></li>
-				<li><a href="#">Sève de Bouleau</a></li>
-				<li><a href="#">Autres produits</a></li>
-			</ul>
-		</nav>
-	</header>
+<?php
+include_once 'component/header.php';
+?>
 
 	<section id=image_bg style='background-image: linear-gradient(0deg,
 	rgba(245, 255, 250, 1) 0%, rgba(255, 255, 255, 0) 100%),
-	url("../img/foret-bouleau.jpeg")'>
+	url("img/foret-bouleau.jpeg")'>
 	</section>
 
 	<section id="le_produit">
 
-		<img src="../img/bouteille1Lseve.png" alt="Noël Alméras" />
+		<img src="img/bouteille1Lseve.png" alt="Noël Alméras" />
 
 		<div id="infos_produit">
 			<h2>Sève de bouleau</h2>
