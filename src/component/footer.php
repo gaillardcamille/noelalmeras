@@ -1,5 +1,3 @@
-<?php
-?>
 <footer>
 
 <h1><a>Noël Alméras</a></h1>
@@ -24,4 +22,3 @@
     </section>
 
 </footer>
-<?php
