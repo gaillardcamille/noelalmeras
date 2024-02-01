@@ -107,7 +107,6 @@ nav a:hover {
 /**************************/
 /*        PRODUITS        */
 /**************************/
-/*        section         */
 
 #produits {
 	margin: 5em 10vw 5em;
@@ -166,7 +165,7 @@ footer div {
 
 
 /***************************/
-/*      AUTRE PRODUIT      */
+/*         PRODUIT         */
 /***************************/
 
 #image_bg {
@@ -176,17 +175,21 @@ footer div {
 }
 
 #le_produit {
-	margin: 50px 30vw 40px;
-	display: flex;
+	margin: 10px 10vw 10px;
+	display: inline;
 }
 
-#le_produit img {
-	height: 250px;
-	width: 200px;
-	object-fit: cover;
+#img_produit {
+	display: inline-block;
+	width: 80vw;
+	max-width: 22em;
+}
+#img_produit img {
+	width: 100%;
 }
 
 #infos_produit {
+
 	align-items: center;
 	padding-left: 5em;
 }
@@ -196,6 +199,48 @@ footer div {
 #infos_produit p,
 #infos_produit button {
 	margin: 10px;
+}
+
+
+
+/***************************/
+/*        CAROUSSEL        */
+/***************************/
+
+#galerie {
+	background-color: var(--green-light);
+	padding: 1.5em 0;
+	display: block;
+	margin: 4em 0;
+}
+#galerie h2 {
+	color: black;
+	text-align: center;
+}
+#galerie .carousel {
+	margin-top: 1.5em;
+	display: flex;
+	overflow: hidden;
+}
+#galerie .carousel img {
+	width: 24em;
+	height: 24em;
+	object-fit: cover;
+	margin-right: 3em;
+}
+#galerie .carousel div {
+	display: flex;
+	animation: marqueeAnimation 79s linear infinite;
+}
+
+/* Animation pour le marquee */
+@keyframes marqueeAnimation {
+	from {
+		transform: translateX(0%);
+	}
+	to {
+		transform: translateX(-100%);
+	}
 }
 
 @media screen and (max-width: 768px) {
