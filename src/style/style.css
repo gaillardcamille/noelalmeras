@@ -187,3 +187,43 @@ footer div {
 #infos_produit button {
 	margin: 10px;
 }
+
+/***************************/
+/*        CAROUSSEL        */
+/***************************/
+
+#galerie {
+	background-color: var(--green-light);
+	padding: 1.5em 0;
+	display: block;
+	margin: 4em 0;
+}
+#galerie h2 {
+	color: black;
+	text-align: center;
+}
+#galerie .carousel {
+	margin-top: 1.5em;
+	display: flex;
+	overflow: hidden;
+}
+#galerie .carousel img {
+	width: 24em;
+	height: 24em;
+	object-fit: cover;
+	margin-right: 3em;
+}
+#galerie .carousel div {
+	display: flex;
+	animation: marqueeAnimation 79s linear infinite;
+ }
+
+/* Animation pour le marquee */
+@keyframes marqueeAnimation {
+	from {
+		transform: translateX(0%);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}

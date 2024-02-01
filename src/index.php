@@ -33,6 +33,25 @@ include_once 'component/header.php';
 
 		<section id="galerie">
 
+            <h2>Découvrez le</h2>
+
+            <div class="carousel">
+                <div>
+                    <img src="img/noel1.jpg" alt="" />
+                    <img src="img/noel2.jpg" alt="" />
+                    <img src="img/noel3.jpg" alt="" />
+                    <img src="img/noel4.jpg" alt="" />
+                    <img src="img/noel5.jpg" alt="" />
+                </div>
+                <div>
+                    <img src="img/noel1.jpg" alt="" />
+                    <img src="img/noel2.jpg" alt="" />
+                    <img src="img/noel3.jpg" alt="" />
+                    <img src="img/noel4.jpg" alt="" />
+                    <img src="img/noel5.jpg" alt="" />
+                </div>
+            </div>
+
 		</section>
 
 		<section id="produits">
