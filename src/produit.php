@@ -16,7 +16,7 @@
 		<h1><a>Noël Alméras</a></h1>
 		<nav>
 			<ul>
-				<li><a href="../index.php">Accueil</a></li>
+				<li><a href="../index">Accueil</a></li>
 				<li><a href="#">Sève de Bouleau</a></li>
 				<li><a href="#">Autres produits</a></li>
 			</ul>
